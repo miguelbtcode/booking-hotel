@@ -1,0 +1,156 @@
+# Archivos y carpetas generados por .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.usertasks
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+.idea/
+*.suo
+*.user
+.vs/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+# Las carpetas de paquetes pueden ser ignoradas por control de versiones
+**/[Pp]ackages/*
+# excepto build/, que se usa como MSBuild target
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Resultados de pruebas
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResults/
+
+# Archivos específicos de .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos temporales de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Archivos temporales de Linux
+*~
+.directory
+.Trash-*
+
+# Aplicaciones Angular, React y otros clientes
+/node_modules
+/dist
+/.pnp
+.pnp.js
+/coverage
+/build
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración con secretos
+appsettings.Development.json
+appsettings.local.json
+appsettings.*.json
+!appsettings.json
+secrets.json
+*.pfx
+*.key
+
+# Archivos de base de datos locales
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite3
+
+# Entity Framework Migrations
+Migrations/
+
+# Archivos de caché y registros
+*.log
+logs/
+.sass-cache/
+
+# Archivos de publicación
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
